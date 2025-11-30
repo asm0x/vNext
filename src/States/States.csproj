@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Workflow\Workflow.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Login\" />
+    <Folder Include="Logout\" />
+    <Folder Include="Refund transaction\" />
+    <Folder Include="Sale transaction\" />
+    <Folder Include="Sale transaction\Tendering\" />
+    <Folder Include="Sale transaction\Itemising\" />
+  </ItemGroup>
+
+</Project>
